@@ -1,5 +1,3 @@
-Lights Out Payload:
-
 #title:         Lights Out
 #Description:  	Turns off Device once plugged in.
 #Author: 	White_Wid0w
